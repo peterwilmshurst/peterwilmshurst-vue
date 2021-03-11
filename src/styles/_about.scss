@@ -1,0 +1,26 @@
+.about {
+    h2 {
+        color: $green;
+        font-weight: 900;
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 400;
+
+        span {
+            font-weight: 900;
+        }
+    }
+
+    .skills {
+        img {
+            max-height: 3rem;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+body {
+    color: $grey;
+    font-weight: 400;
+}
+
+a {
+    color: $green;
+    text-decoration: underline;
+
+    &:hover {
+        color: $green;
+        text-decoration: none;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+}
