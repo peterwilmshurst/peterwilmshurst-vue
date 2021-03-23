@@ -15,12 +15,59 @@
     }
 
     .skills {
-        img {
+        img,
+        svg {
             max-height: 3rem;
         }
 
         p {
             text-align: center;
+        }
+    }
+
+    .experience {
+        div {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+        img {
+            max-height: 2rem;
+        }
+
+        p {
+            text-align: center;
+            font-size: 0.75rem;
+        }
+    }
+}
+
+.dark {
+    background-color: $black;
+    .about {
+          
+        .skills {
+            img {
+                max-height: 3rem;
+            }
+    
+            p {
+                text-align: center;
+            }
+        }
+    
+        .experience {
+            div {
+                display: inline-block;
+                margin-right: 1rem;
+            }
+            img {
+                max-height: 2rem;
+            }
+    
+            p {
+                text-align: center;
+                font-size: 0.75rem;
+            }
         }
     }
 }

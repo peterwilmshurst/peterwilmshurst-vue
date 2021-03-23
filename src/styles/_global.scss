@@ -1,6 +1,26 @@
-body {
-    color: $grey;
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#nav {
+    padding: 1rem;
+    text-align: center;
+
+    a {
+        font-weight: bold;
+        color: $grey;
+
+        &.router-link-exact-active {
+            color: $green;
+        }
+    }
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 a {
@@ -13,6 +33,59 @@ a {
     }
 }
 
-h1 {
-    font-size: 3rem;
+.blog-post {
+    a {
+        color: $grey;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .title {
+        color: $green;
+        margin-bottom: 0;
+    }
+
+    .date {
+        display: inline-block;
+        margin-top: 0.25rem;
+        margin-bottom: 1rem;
+    }
+}
+
+// Dark Colour Scheme
+
+.dark {
+    color: $white;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $white;
+    }
+
+    #nav {
+        a {
+            color: $white;
+
+            &.router-link-exact-active {
+                color: $green;
+            }
+        }
+    }
+
+    .blog-post {
+        a {
+            color: $white;
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
 }

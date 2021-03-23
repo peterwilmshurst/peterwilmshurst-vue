@@ -1,0 +1,45 @@
+.logo {
+    .cls-1 {
+        fill: $grey;
+    }
+
+    .cls-2 {
+        fill: #281f30;
+    }
+
+    .cls-3 {
+        fill: $white
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        .cls-1 {
+            fill: $green;
+        }
+    }
+}
+
+.dark {
+    .logo {
+        .cls-1 {
+            fill: $white;
+        }
+
+        .cls-2 {
+            fill: #cecece;
+        }
+
+        .cls-3 {
+            fill: $grey;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            .cls-1 {
+                fill: $green;
+            }
+        }
+    }
+}

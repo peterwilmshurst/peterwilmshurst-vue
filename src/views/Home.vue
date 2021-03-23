@@ -74,25 +74,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-.blog-post {
-  a {
-    text-decoration: none;
-    color: $grey;
-    &:hover {
-      text-decoration: none;
-      color: $grey;
-    }
-  }
-  .title {
-    color: $green;
-    margin-bottom: 0;
-  }
-  .date {
-    display: inline-block;
-    margin-top: 0.25rem;
-    margin-bottom: 1rem;
-  }
-}
-</style>
